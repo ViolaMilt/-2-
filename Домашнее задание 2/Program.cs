@@ -16,4 +16,13 @@
  string itog = string.Concat(k[2] , k[1] , k[0]);
 Console.WriteLine(itog);
 
-
+//Задача 10.Третий вариант 
+Console.WriteLine("Введите число: ");
+string slovo = Console.ReadLine();
+//Functia10(slovo);
+Console.WriteLine(Functia10(slovo));
+string Functia10(string k)
+ {
+ string itog = string.Concat(k[2] , k[1] , k[0]);
+ 
+ return itog;}
