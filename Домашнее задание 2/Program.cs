@@ -40,3 +40,15 @@ string Functia10(string k)
          {
              Console.WriteLine("Третьей цифры нет");
          } 
+
+  //Задача 15
+    Console.WriteLine("Введите цифру,соответствующую дню недели:1-Пн,2-Вт,3-Среда,4-Чт,5-Пт,6-Сб,7-Вс");
+    int f = Convert.ToInt32 (Console.ReadLine());
+    if (f == 6 || f == 7 )
+    {
+        Console.WriteLine("Да, выходной");
+    }
+    else
+    {
+        Console.WriteLine("Нет, рабочий");
+    }
