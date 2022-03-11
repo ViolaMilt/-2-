@@ -26,3 +26,17 @@ string Functia10(string k)
  string itog = string.Concat(k[2] , k[1] , k[0]);
  
  return itog;}
+
+//Задача 13
+ Console.WriteLine ( "Введите число:  ");
+ string y = Console.ReadLine();
+ int d = y.Length;
+  
+   if (d > 2)
+         {
+            Console.WriteLine( y[2]);
+         }
+         else
+         {
+             Console.WriteLine("Третьей цифры нет");
+         } 
